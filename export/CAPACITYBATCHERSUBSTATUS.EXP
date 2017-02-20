@@ -1,0 +1,8 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/ENUM' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE CapacityBatcherSubStatus : (CapacityBatcherSubStatusNormal:=0, CapacityBatcherSubStatusBatching, CapacityBatcherSubStatusPause,
+										CapacityBatcherSubStatusRefStopped, CapacityBatcherSubStatusRefAlarm, CapacityBatcherSubStatusConfErr,
+										CapacityBatcherSubStatusForbiddenCommand, CapacityBatcherSubStatusUnknownCommand, CapacityBatcherSubStatusBadCommandParameter);
+END_TYPE
+(* @END_DECLARATION := '0' *)

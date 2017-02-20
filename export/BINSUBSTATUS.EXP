@@ -1,0 +1,6 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/ENUM' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE BinSubStatus : (BinSubStatusNormal:=0, BinSubStatusSensorStopped, BinSubStatusRefStopped, BinSubStatusOverflow, BinSubStatusConfErr);
+END_TYPE
+(* @END_DECLARATION := '0' *)

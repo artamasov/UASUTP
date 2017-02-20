@@ -1,0 +1,6 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/ENUM' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE TransportClass : (Forced:=1, Passive);
+END_TYPE
+(* @END_DECLARATION := '0' *)

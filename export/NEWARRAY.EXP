@@ -1,0 +1,18 @@
+
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '' *)
+(* @OBJECTFLAGS := '0, 8' *)
+(* @SYMFILEFLAGS := '2048' *)
+FUNCTION NewArray : POINTER TO BYTE
+VAR_INPUT
+	ArrayLength : Length;		(*Количество элементов в массиве*)
+	ElementSize : Size;		(*Размер элемента массива в байтах*)
+END_VAR
+VAR
+	p: POINTER TO ArrayOfByte;
+END_VAR
+(* @END_DECLARATION := '0' *)
+p:= SysMemAlloc(ArrayLength*ElementSize);
+p^.length := ArrayLength;
+NewArray := p;
+END_FUNCTION

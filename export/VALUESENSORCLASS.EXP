@@ -1,0 +1,6 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/ENUM' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE ValueSensorClass : (Differentiator:=1, Linearizator, StepSensor);
+END_TYPE
+(* @END_DECLARATION := '0' *)

@@ -1,0 +1,6 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/ENUM' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE DeviceStatus : (null:=0, alarm, stopped, started);
+END_TYPE
+(* @END_DECLARATION := '0' *)

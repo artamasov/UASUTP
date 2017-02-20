@@ -1,0 +1,28 @@
+
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '' *)
+(* @OBJECTFLAGS := '0, 8' *)
+(* @SYMFILEFLAGS := '2048' *)
+PROGRAM PLC_PRG
+VAR
+	p, p1: POINTER TO BYTE;
+	pip: POINTER TO IPAddress;
+	parr: POINTER TO ARRAY [0..3] OF INT;
+	N: INT:= 6;
+	arrInit: BOOL;
+	i: INT;
+END_VAR
+(* @END_DECLARATION := '0' *)
+IF NOT arrInit THEN
+	p:= NewArray(10, 2);
+	arrInit:= TRUE;
+END_IF;
+
+	pip:= p;
+	(*p1:= p+3;
+	p1^:= 1;
+	i:= parr^[1];*)
+	FOR i := 0 TO pip^.length - 1 DO
+		pip^.items[i] := 1;
+	END_FOR;
+END_PROGRAM

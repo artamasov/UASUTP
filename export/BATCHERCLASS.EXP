@@ -1,0 +1,6 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/ENUM' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE BatcherClass : (Capacity:=1, Flow, Weight);
+END_TYPE
+(* @END_DECLARATION := '0' *)

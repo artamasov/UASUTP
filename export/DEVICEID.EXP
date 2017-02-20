@@ -1,0 +1,6 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/INT' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE DeviceID : UINT;
+END_TYPE
+(* @END_DECLARATION := '0' *)

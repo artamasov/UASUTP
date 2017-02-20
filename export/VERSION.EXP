@@ -1,0 +1,11 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/STRUCT' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE Version :
+STRUCT
+	major: SINT;
+	minor: SINT;
+	patch: SINT;
+END_STRUCT
+END_TYPE
+(* @END_DECLARATION := '0' *)

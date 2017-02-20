@@ -1,0 +1,11 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/STRUCT' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE Error :
+STRUCT
+	err_code: UINT;
+	par1: UINT;
+	par2: UINT;
+END_STRUCT
+END_TYPE
+(* @END_DECLARATION := '0' *)

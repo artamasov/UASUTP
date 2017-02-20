@@ -1,0 +1,14 @@
+LIBRARY
+SysLibMem.lib 20.2.06 13:31:12
+(* @LIBRARYSYMFILEINFO := '0' *)
+NumOfPOUs: 7
+SysMemAlloc: 0
+SysMemCmp: 0
+SysMemCpy: 0
+SysMemFree: 0
+SysMemMove: 0
+SysMemSet: 0
+SysMemSwap: 0
+NumOfGVLs: 1
+Globale_Variablen: 0
+END_LIBRARY

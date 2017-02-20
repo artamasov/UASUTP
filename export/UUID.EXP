@@ -1,0 +1,6 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE UUID : ARRAY[0..15] OF BYTE;
+END_TYPE
+(* @END_DECLARATION := '0' *)

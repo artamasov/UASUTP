@@ -1,0 +1,9 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/ENUM' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE WeightBatcherSubStatus : (WeightBatcherSubStatusNormal:=0, WeightBatcherSubStatusBatching, WeightBatcherSubStatusLoading,
+									WeightBatcherSubStatusDischarging, WeightBatcherSubStatusPause, WeightBatcherSubStatusRefStopped,
+									WeightBatcherSubStatusRefAlarm, WeightBatcherSubStatusConfErr, WeightBatcherSubStatusForbiddenCommand,
+									WeightBatcherSubStatusUnknownCommand, WeightBatcherSubStatusBadCommandParameter);
+END_TYPE
+(* @END_DECLARATION := '0' *)

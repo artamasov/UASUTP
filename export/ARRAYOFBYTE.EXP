@@ -1,0 +1,10 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/STRUCT' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE ArrayOfByte :
+STRUCT
+	length: Length;
+	items: ARRAY [0..32767] OF BYTE;
+END_STRUCT
+END_TYPE
+(* @END_DECLARATION := '0' *)

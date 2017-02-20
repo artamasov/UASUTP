@@ -1,0 +1,7 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/ENUM' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE DeviceType : (System:=1, DiscreteOut, LogicalOut, IODevice, LocalIOManager, NetIOManager, SerialIOManager, LogicSensor,
+							DiscreteSensor, ValueSensor, Bin, Transport, Truck, Selector, Batcher, CyclicMixer);
+END_TYPE
+(* @END_DECLARATION := '0' *)

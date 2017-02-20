@@ -1,0 +1,8 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/ENUM' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE FlowBatcherSubStatus : (FlowBatcherSubStatusNormal:=0, FlowBatcherSubStatusBatching, FlowBatcherSubStatusPause, FlowBatcherSubStatusRefStopped,
+									FlowBatcherSubStatusRefAlarm, FlowBatcherSubStatusConfErr, FlowBatcherSubStatusForbiddenCommand,
+									FlowBatcherSubStatusUnknownCommand, FlowBatcherSubStatusBadCommandParameter);
+END_TYPE
+(* @END_DECLARATION := '0' *)

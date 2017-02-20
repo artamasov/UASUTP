@@ -1,0 +1,8 @@
+(* @NESTEDCOMMENTS := 'Yes' *)
+(* @PATH := '\/ENUM' *)
+(* @OBJECTFLAGS := '0, 8' *)
+TYPE TransportSubStatus : (TransportSubStatusNormal:=0, TransportSubStatusChangeSpeed, TransportSubStatusStarting, TransportSubStatusRefStopped,
+								TransportSubStatusRefAlalrm, TransportSubStatusStopping, TransportSubStatusAlarm, TransportSubStatusTimeout,
+								TransportSubStatusConfErr, TransportSubStatusUnknownCommand, TransportSubStatusBadCommandParameter);
+END_TYPE
+(* @END_DECLARATION := '0' *)
